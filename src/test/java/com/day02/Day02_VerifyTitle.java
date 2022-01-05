@@ -2,7 +2,7 @@ package com.day02;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+//2
 public class Day02_VerifyTitle {
     public static void main(String[] args) {
     //2.Navigate to google homepage
@@ -17,6 +17,7 @@ public class Day02_VerifyTitle {
         String expectedresult="Google";
         String actualresult=driver.getTitle();
 
+        //Verification!!!
         if(actualresult.equals(expectedresult)){
             System.out.println("PASSED");
         }else{

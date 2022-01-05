@@ -2,7 +2,7 @@ package com.day02;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+//3
 public class Day02Verify_Url {
     public static void main(String[] args) {
         //2.Navigate to google homepage
@@ -14,8 +14,13 @@ public class Day02Verify_Url {
         driver.manage().window().maximize();
         driver.get("https://www.google.com");
 
+        //getting the url of the page
        String actualUrl= driver.getCurrentUrl();
+
+       //expected url
        String expectedUrl="www.google.com";
+
+       //verification
         System.out.println("actualurl: " +actualUrl);
         System.out.println("expectedurl: "+expectedUrl);
         if(actualUrl.equals(expectedUrl)){

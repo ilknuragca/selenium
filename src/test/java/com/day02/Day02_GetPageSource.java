@@ -2,7 +2,7 @@ package com.day02;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+//1
 public class Day02_GetPageSource {
     public static void main(String[] args) {
       /*   1.//getPageSource() returns page source code as a string
@@ -21,9 +21,11 @@ public class Day02_GetPageSource {
         String amazonTitle=driver.getTitle();
         System.out.println("amazonTitle: "+amazonTitle);
 
+        //getting the page source
         String pageSource = driver.getPageSource();
         System.out.println("pageSource: " + pageSource);
 
+        //checking if 'Registry' exist on the entire page
         if(pageSource.contains("Registry")){ //pagesource içinde geçiyor
             System.out.println("PASSED");
         }else{
