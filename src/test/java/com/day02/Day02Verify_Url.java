@@ -31,6 +31,29 @@ public class Day02Verify_Url {
 
         driver.close();
 
-
+        /*
+         * Test Case failed
+         * FAIL
+         *ACTUAL : https://www.google.com/
+         *EXPECTED : www.google.com
+         *
+         * Then what do you do when your test case fails????
+         * 1. Run script again to make sure
+         * 2. Manual testing to make sure
+         * 3. Now I know that expected and actual result is not the same
+         * 4. Then we communicate with the BA(write acceptance criteria) or talk to developers, tech lead, test lead
+         *
+         * ~~~Testers do not fix a code. We reports the bugs. Developers then fix.
+         *
+         * 5. After verifying the there is a bug then what do you do?
+         * -Follow the company procedures
+         * -if they are using JIRA then open a big ticket
+         *
+         *
+         * 6. Ticket opened, dev told you that bug is fixed.
+         *-retest to make sure
+         *-if all good then close the bug ticket
+         *
+        */
     }
 }

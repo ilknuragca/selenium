@@ -68,5 +68,27 @@ public class Day01_Navigations {
           3. navigate uses both string and URL data type Url but get only uses string Url.
           */
 
+        /*
+         * What is the difference  between get() and navigate.to ?
+         * 1. get() easier to use, used more than navigate()
+         * 2. get() a little faster
+         * 3. get() takes only string, but navigate.to takes string or URL as parameter
+         * 4. navigate has more options: back, forward, refresh
+         * ----------------------------------------------------------------
+         *What is the difference between close and quit?
+         *close() -> closes only current working browser
+         *quit() -> closes all browsers.
+         *-------------------------------------------------------
+         *What is Thread.sleep()?
+         *It is used to put some wait.
+         *Thread.sleep(5000); puts 5 second ON THIS STEP
+         *Thread.sleep is a JAVA wait. It is not a selenium wait.
+         *Because this is HARD wait.
+         *It means, this will put extra wait EVEN IF WE DON'T NEED
+         *We will use selenium waits. They will be DYNAMIC WAIT.
+         * --------------------------
+         * */
+
+
     }
 }
